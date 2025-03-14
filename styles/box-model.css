@@ -1,9 +1,9 @@
 .callout {
-    max-width: 50%;
-    margin: 25px;
+    max-width: 33%;
+    margin: auto;
     border: 1px solid black;
     padding: 25px;
-    background: darkblue;
+    background-color: steelblue;
     color: white;
 }
 
