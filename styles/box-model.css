@@ -3,12 +3,12 @@
     margin: 25px;
     border: 1px solid black;
     padding: 25px;
-    background-color: darkblue;
+    background: darkblue;
     color: white;
 }
 
 .callout img {
-    position: left;
+    position: right;
     margin: 25px;
     border: 5px solid white;
     padding: 0px;
@@ -24,7 +24,7 @@ cite {
     display: block;
     border-top: 1px dotted white;
     padding-top: 25px;
-    text-align: left;
-    font-size: 14px;
+    text-align: right;
+    font-size: 32px;
     font-style: italic;
 }
