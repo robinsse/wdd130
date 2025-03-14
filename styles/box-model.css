@@ -3,7 +3,7 @@
     margin: auto;
     border: 1px solid black;
     padding: 10px;
-    background-color: steelblue;
+    background-color: #214477;
     color: white;
 }
 
@@ -13,8 +13,8 @@
     border: 2px solid white;
     padding: 0px;
     background-color: white;
-    width: 75%;
-    height: 75%;
+    width: 25%;
+    height: 25%;
 }
 
 blockquote {
