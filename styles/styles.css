@@ -1,7 +1,13 @@
 /* This is my comment */
 
+:root {
+    --main-blue: darkblue;
+    --main-border: 1px solid rgb(0 0 0 / 0.2);
+    --accent-grey: #eee;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--main-blue);
     padding: 10px;
 }
 
@@ -12,15 +18,15 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--main-blue);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--main-border);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--accent-grey);
 }
 
 p {
@@ -34,9 +40,9 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    border: var(--main-border);
     padding: 1rem;
-    background-color: #eee;
+    background-color: var(--accent-grey);
     color: #333;
     text-align: center;
 }
@@ -48,6 +54,6 @@ aside img {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: var(--main-border);
     text-align: center;
 }
