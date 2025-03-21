@@ -1,0 +1,81 @@
+/* Color Palette https://coolors.co/8ea4d2-6279b8-49516f-496f5d-4c9f70 */
+
+:root {
+    --primary-color: #49516f;
+    --secondary-color: #6279b8;
+    --accent1-color: #8ea4d2;
+    --accent2-color: #496f5d;
+    --heading-font: "Boldonse", system-ui;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    background-color: var(--primary-color);
+    color: #fff;
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    text-align: center;
+    opacity: 80%;
+}
+
+article {
+    position: absolute;
+    background-color: var(--accent1-color);
+    top: 20%;
+    left: 40%;
+    opacity: 80%;
+    padding: 20px;
+    margin: 40px;
+}
+
+article img {
+    max-width: 200px;
+    float: right;
+    display: block;
+    opacity: 100%;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+p {
+    font-family: "Gidole", sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+section img {
+    width: 200px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    width: 24px;
+}

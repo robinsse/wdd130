@@ -1,0 +1,19 @@
+/* Color Palette https://coolors.co/8ea4d2-6279b8-49516f-496f5d-4c9f70 */
+
+:root {
+    --primary-color: #49516f;
+    --secondary-color: #6279b8;
+    --accent1-color: #8ea4d2;
+    --accent2-color: #496f5d;
+    --heading-font: 
+}
+
+body {
+    font-family: "Gidole", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+}
