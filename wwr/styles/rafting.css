@@ -6,6 +6,7 @@
     --accent1-color: #8ea4d2;
     --accent2-color: #496f5d;
     --heading-font: "Boldonse", system-ui;
+    --paragraph-font: "Gidole", sans-serif;
 }
 
 header {
@@ -78,7 +79,7 @@ h2 {
 }
 
 p {
-    font-family: "Gidole", sans-serif;
+    font-family: var(--paragraph-font);
     font-weight: 400;
     color: #000;
 }
