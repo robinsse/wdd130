@@ -271,7 +271,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     border: 40px double var(--accent2-color);
-    font: var(var(--heading-font));
+    font-family: var(--paragraph-font);
     width: 80%;
     margin: 0 auto;
 }
