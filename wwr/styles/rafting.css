@@ -112,6 +112,25 @@ section img {
     text-align: center;
 }
 
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+    gap: 20px 20px;
+    max-width: 800px;
+}
+
+.grid-container3>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.grid-container3 img {
+    width: 100%;
+}
+
 footer {
     position: relative;
 }
@@ -149,6 +168,7 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
+    margin-top: 2rem;
     border: 1px solid #000;
     border-radius: 0.5rem;
     background-color: #eee;
@@ -214,4 +234,57 @@ form button {
 
 button:hover {
     background-color: var(--accent2-color);
+}
+
+.contact {
+    position: sticky;
+    top: 20px;
+    text-align: center;
+    width: 100px;
+    margin-left: auto;
+    display: block;
+    background-color: var(--accent2-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.journal {
+    display: block;
+    text-align: justify;
+}
+
+.journal img {
+    float: left;
+    margin-right: 20px;
+
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 40px double var(--accent2-color);
+    font: var(var(--heading-font));
+    width: 80%;
+    margin: 0 auto;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-style: italic;
+}
+
+th,
+td {
+    border: 2px solid var(--accent2-color);
+    padding: 30px;
+    text-align: center;
 }
